@@ -1,4 +1,27 @@
 body{
     background-color: #48cae4;
     box-sizing: border-box;
+    text-align: center;
 }
+
+
+section{
+    display: flex;
+    background-color: white;
+    width: 320px;
+    margin: auto;
+    border-radius: 20px;
+    
+
+}
+
+img{
+    width: 320px;
+}
+
+
+div{
+    width: 30%;
+   
+}
+
