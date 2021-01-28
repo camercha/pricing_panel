@@ -24,6 +24,7 @@ img{
 
 div{
     width: 100%;
+   
   
 }
 
@@ -60,10 +61,26 @@ button{
    padding: 1em 3em;
    display: inline-block;
    margin-bottom: 20px;
+   transition: 0.5s;
 
 }
 
 #bluey{
     background-color:#0096c7 ;
     color: white;
+   
+}
+
+
+#bluey:hover{
+    background-color: yellow;
+    cursor: pointer;
+    border: yellowgreen;
+    color: green;
+}
+
+button:hover{
+    background-color: yellow;
+    cursor: pointer;
+    border: yellowgreen;
 }
