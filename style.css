@@ -1,12 +1,14 @@
 body{
+    display: flex;
     background-color: #48cae4;
     box-sizing: border-box;
     text-align: center;
+    
 }
 
 
 section{
-    display: flex;
+   
     background-color: white;
     width: 400px;
     margin:  auto;
@@ -87,11 +89,20 @@ button:hover{
 
 
 
-@media(min-width:925px){
+@media(min-width:970px){
+  
+    body{
+       height: 700px;
+        justify-content: center;
+        align-items: center;
+    }
+    
     section{
         flex-direction: row;
         width: 1000px;
-       justify-self: center;
+   
+      
+      
 
     }
 }
