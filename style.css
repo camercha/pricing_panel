@@ -11,6 +11,8 @@ section{
     width: 320px;
     margin: auto;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
     
 
 }
@@ -21,7 +23,39 @@ img{
 
 
 div{
-    width: 30%;
-   
+    width: 100%;
+  
 }
+
+h3{
+    font-size: 1.2em;
+    color: grey;
+    font-family: "Open Sans";
+    margin-bottom: 50px ;
+}
+
+p{
+    font-family: "Open Sans";
+    color:#0096c7 ;
+}
+ .topP{
+    margin-bottom: 25px;
+    font-size: 0.9em;
+}
+
+
+#bigP{
+    font-size: 3em;
+    color: #03045e;
+    margin-bottom: 25px;
+}
+
+button{
+    color: #0096c7;
+    border-radius: 15px;
+    background-color: white;
+   border: 1px solid #0096c7;
+   padding: 1em 3em;
+   display: inline-block;
+   margin-bottom: 20px;
 
