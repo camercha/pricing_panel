@@ -15,7 +15,7 @@ section{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    
+    padding: 30px;
 
 }
 
@@ -41,6 +41,8 @@ p{
     font-family: "Open Sans";
     color:#0096c7 ;
     text-transform: uppercase;
+    font-weight: bold;
+
     
 }
  .topP{
@@ -64,6 +66,7 @@ button{
    display: inline-block;
    margin-bottom: 20px;
    transition: 0.5s;
+   font-size: 1em;
 
 }
 
@@ -100,9 +103,13 @@ button:hover{
     section{
         flex-direction: row;
         width: 1000px;
+        padding: 30px;
    
       
       
 
     }
+
+
+   
 }
