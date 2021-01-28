@@ -9,7 +9,7 @@ section{
     display: flex;
     background-color: white;
     width: 400px;
-    margin: auto;
+    margin:  auto;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -83,4 +83,15 @@ button:hover{
     background-color: yellow;
     cursor: pointer;
     border: yellowgreen;
+}
+
+
+
+@media(min-width:925px){
+    section{
+        flex-direction: row;
+        width: 1000px;
+       justify-self: center;
+
+    }
 }
